@@ -1,4 +1,4 @@
-Name: Reyansh Attavar
+**Name: Reyansh Attavar**
 
 **GCC Optimization Analysis: Hex Dump Program**
 
