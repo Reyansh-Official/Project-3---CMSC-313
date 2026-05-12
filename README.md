@@ -11,6 +11,7 @@ gcc -O0 -o hexfile hexfile.c
 gcc -O1 -o hexfile hexfile.c
 gcc -O3 -o hexfile hexfile.c
 
+```
 
 ## Compile Assembly Files
 
