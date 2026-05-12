@@ -50,12 +50,3 @@ Cold code paths, such as error handling (`fopen` failures or `ferror` checks), a
 
 ---
 
-**Summary**
-
-At `-O0`, the program is a direct translation of the source code with high overhead due to function calls, stack usage, and repeated evaluations.
-
-At `-O1`, most major performance improvements occur: inlining removes function call overhead, loop-invariant computations are hoisted, and branching is reduced.
-
-At `-O3`, GCC focuses on low-level execution efficiency, including instruction alignment, branch prediction heuristics, and separation of cold and hot code paths.
-
-In this program, the primary performance bottleneck is I/O (`printf` and `putc`), so differences between `-O1` and `-O3` are smaller compared to improvements from `-O0` to `-O1`.
