@@ -1,4 +1,4 @@
-# Project-3-CMSC313 — Hex Dump Program (GCC Optimization Analysis)
+# Project-3-CMSC313 — Hex Dump Program 
 
 ---
 
