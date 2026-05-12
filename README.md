@@ -1,7 +1,5 @@
 # Project-3-CMSC313 — Hex Dump Program (GCC Optimization Analysis)
 
-This project demonstrates how GCC optimization levels affect compilation, assembly output, and runtime behavior.
-
 ---
 
 ## Compile Executable
@@ -19,3 +17,9 @@ gcc -O3 -o hexfile hexfile.c
 gcc -O0 -S -o hexfile_O0.s hexfile.c
 gcc -O1 -S -o hexfile_O1.s hexfile.c
 gcc -O3 -S -o hexfile_O3.s hexfile.c
+```
+
+## Run Program
+
+```bash
+./hexfile binary.out
