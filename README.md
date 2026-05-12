@@ -10,3 +10,11 @@ This project demonstrates how GCC optimization levels affect compilation, assemb
 gcc -O0 -o hexfile hexfile.c
 gcc -O1 -o hexfile hexfile.c
 gcc -O3 -o hexfile hexfile.c
+
+
+## Compile Assembly Files
+
+```bash
+gcc -O0 -S -o hexfile_O0.s hexfile.c
+gcc -O1 -S -o hexfile_O1.s hexfile.c
+gcc -O3 -S -o hexfile_O3.s hexfile.c
