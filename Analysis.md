@@ -3,6 +3,7 @@
 **GCC Optimization Analysis: Hex Dump Program**
 
 **Compiler:** GCC 13.3.0 on x86-64 Linux
+
 **Source:** hexdump.c — two functions: `print_hex_line` (static) and `main`
 
 ---
